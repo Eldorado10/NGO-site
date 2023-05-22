@@ -13,6 +13,7 @@ module.exports = {
           accent: "#3A4256",
           neutral: "#3d4451",
           "base-100": "#f3f4f6",
+          banner: "#6ee7b7"
         },
       },
       
