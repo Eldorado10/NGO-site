@@ -10,7 +10,7 @@ const Navbar = () => {
         
         </>
     return (
-      <div class="navbar bg-base-100">
+      <div class="navbar  bg-white">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
       </div>
       <div class="navbar-center">
-        <a class="btn btn-ghost normal-case text-xl">NGO</a>
+        <a className="btn btn-ghost normal-case text-xl">NGO</a>
       </div>
       <div class="navbar-end">
         <button class="btn btn-ghost btn-circle">

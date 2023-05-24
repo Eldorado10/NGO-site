@@ -4,5 +4,16 @@
     border:1px solid white;
     border-radius: 25px;
     background-color:rgb(224, 232, 242);
-    color: white
+    color: white;
+    text-align: center;
+    vertical-align: middle;
 }
+@media only screen and (max-width: 600px) {
+    .box{
+        padding: 3rem;
+        height: 25rem;
+        width: 20rem;
+        text-align: center;
+        margin: 3rem;
+    }
+  }
