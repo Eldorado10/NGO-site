@@ -1,10 +1,11 @@
 import React from 'react';
 import '../Home/css/button.css'
+import { Link } from 'react-router-dom';
 
 const PrimaryButton = ({children}) => {
     return (
         <div>
-            <button className=" btn-grad  uppercase tracking-[.25em]">{children}</button>
+            <Link className='btn-group btn-grad' to="/donate">{children}</Link>
         </div>
     );
 };
