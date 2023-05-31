@@ -9,10 +9,10 @@
     margin-left: 8rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .account{
         padding: 2rem;
-        height: 20rem;
+        height: auto;
         border:1px solid white;
         border-radius: 25px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
